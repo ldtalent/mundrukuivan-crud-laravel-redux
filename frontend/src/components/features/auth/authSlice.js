@@ -42,7 +42,7 @@ export const Registering=(userData)=>dispatch=>{
 export const LoginUser=(userData, history)=>dispatch=>{
     dispatch(loginData(userData));
     dispatch(isAuthenticated(true))
-    history.push('/dashBoard');
+    history.push('/dashboard');
 
 }
 
