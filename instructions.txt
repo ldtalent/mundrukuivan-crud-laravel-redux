@@ -1,0 +1,39 @@
+
+In summary, I have used react scalfolding feature for frontend, redux for state management, laravel for the Api end points and 
+passport laravel package for personal access token implementation with bearer token auth
+
+
+How to install and run the application
+
+
+NOTE: Please for version consistency, use php version 7.1.3 or 7.2 but the latest php version does not work( php 8.0)
+
+1. After Unzipping the project, create .env in the root directory of the project(. files are skipped during compression on ubuntu)
+
+2. copy the contents in the env.txt and paste it in the .env file you created in step 1 above
+
+
+3. start the apache server
+
+4. create a database called trailanalytics
+
+5.Incase if your database username and and Dabase password on your machine is different from .env, please check tha DB_USERNAME and  DB_PASSWORD to 
+match what you have configured
+
+6. open a commandline tool and change (CD) into the project directory
+
+7.After step 6, type php artisan migrate and enter (If you have not made errors in the previours steps and you are using a supported php version
+, all the tables created should be migrated  to the database)
+
+
+8. After step 7 is succesful, again in the command line type, php artisan passport:install (Don't mind when you see Encryption keys already exists error);
+
+9. After step 8, in the same commandline type php artisan DB:seed to create the first user in database;
+
+10. Lastly, enter php artisan serve, to start the server and copy the generated url shown when the server is running, paste in the broswer, Thats all
+
+
+Good Luck with the process....
+
+Regards
+Mundruku Ivan

@@ -1,0 +1,63 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+.container{
+ 
+    margin-top: 10%;
+  
+}
+
+li{
+    margin-right: 10px;
+}
+
+Link{
+    color: wheat;
+}
+.Home{
+    margin-top: 30vh;
+ 
+    text-align: center;
+}
+.report{
+    margin-top: 15px;
+    display: flex;
+    flex: 1;
+    margin-left: 5%;
+}
+.table-data{
+    flex: 1;
+    margin-right: 5px;
+}
+.user-data{
+  width: 40%;
+  margin-left: 10%;
+  margin-right: 5%;
+  
+}
+.user_deatils{
+    display: flex;
+    margin-top: 5px;
+}
+.user_deatils button{
+    margin-left: auto;
+    margin-right: 5px;
+}
+.user_margin{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.user_edit{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
